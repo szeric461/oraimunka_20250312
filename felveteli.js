@@ -17,7 +17,13 @@ app.get ("/", (req,res) => {
     res.send("Működik a szerver");
 })
 
-
+app.get ("/", (req,res) => {
+    const sql = "SELECT * FROM jelentkezesek";
+    db.querry(sql, (err, result)=> {
+        if (err) return res.json(err);
+        return res.json(result);
+    })
+})
 
 app.listen(3000, () => {
  
