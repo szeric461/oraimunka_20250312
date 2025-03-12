@@ -3,5 +3,16 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "mysql": "^2.18.1"
-  }
+  },
+  "name": "oraimunka_20250312",
+  "description": "",
+  "version": "1.0.0",
+  "main": "felveteli.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon felveteli.js"
+    },
+  "author": "",
+  "license": "ISC"
 }

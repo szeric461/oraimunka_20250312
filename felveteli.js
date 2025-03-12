@@ -17,9 +17,7 @@ app.get ("/", (req,res) => {
     res.send("Működik a szerver");
 })
 
-app.get ("/", (req,res) => {
-    
-})
+
 
 app.listen(3000, () => {
  
